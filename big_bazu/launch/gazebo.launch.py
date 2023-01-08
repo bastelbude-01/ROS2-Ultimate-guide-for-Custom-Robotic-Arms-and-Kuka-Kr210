@@ -6,7 +6,7 @@ from launch_ros.actions import Node
 
 def generate_launch_description():
     package_share_dir = get_package_share_directory("big_bazu")
-    urdf_file = os.path.join(package_share_dir, "urdf", "my_big_bazu.urdf")
+    urdf_file = os.path.join(package_share_dir, "urdf", "big_bazu.urdf")
 
 
     return LaunchDescription(
@@ -18,7 +18,7 @@ def generate_launch_description():
             Node(
                 package="gazebo_ros",
                 executable="spawn_entity.py",
-                arguments=["-entity","my_big_bazu","-b","-file", urdf_file,],
+                arguments=["-entity","big_bazu","-b","-file", urdf_file,],
             ),
             Node(
                 package="robot_state_publisher",

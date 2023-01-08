@@ -209,7 +209,7 @@
 <gazebo>
     <plugin filename="libgazebo_ros2_control.so" name="gazebo_ros2_control">
       <robot_sim_type>gazebo_ros2_control/GazeboSystem</robot_sim_type>
-      <parameters>/home/luqman/robotic_arm_ws/src/big_bazu/config/jtc.yaml</parameters>
+      <parameters>/home/ros2/udemy_ws/src/ROS2-Ultimate-guide-for-Custom-Robotic-Arms-and-Kuka-Kr210/big_bazu/urdf/big_bazu.urdf</parameters>
     </plugin>
   </gazebo>
   
