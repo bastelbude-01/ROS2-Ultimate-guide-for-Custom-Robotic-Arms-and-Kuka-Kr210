@@ -7,7 +7,7 @@ import os
 def generate_launch_description():
     
     pkg_description = get_package_share_directory('big_bazu')
-    urdf_file = os.path.join(pkg_description, "urdf", 'big_bazu.urdf')   
+    urdf_file = os.path.join(pkg_description, "urdf", 'my_big_bazu.urdf')   
 
 
 
