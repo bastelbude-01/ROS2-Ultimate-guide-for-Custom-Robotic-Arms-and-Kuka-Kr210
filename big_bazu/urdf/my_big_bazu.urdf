@@ -50,7 +50,7 @@
             </geometry>
         </collision>
         <inertial>
-            <mass value="10.0"/>
+            <mass value="0.0"/>
             <inertia ixx="0.0" ixy="0.0" ixz="0.0" iyy="0.0" iyz="0.0" izz="0.0"/>
         </inertial>
     </link>
@@ -83,7 +83,7 @@
             </geometry>
         </collision>
         <inertial>
-            <mass value="1.0"/>
+            <mass value="0.0"/>
             <inertia ixx="0.0" ixy="0.0" ixz="0.0" iyy="0.0" iyz="0.0" izz="0.0"/>
         </inertial>
     </link>
@@ -114,7 +114,7 @@
             </geometry>
         </collision>
         <inertial>
-            <mass value="0.3"/>
+            <mass value="0.0"/>
             <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
             <inertia ixx="0.0" ixy="0.0" ixz="0.0" iyy="0.0" iyz="0.0" izz="0.0"/>
         </inertial>
@@ -147,7 +147,7 @@
             </geometry>
         </collision>
         <inertial>
-            <mass value="0.3"/>
+            <mass value="0.0"/>
             <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
             <inertia ixx="0.0" ixy="0.0" ixz="0.0" iyy="0.0" iyz="0.0" izz="0.0"/>
         </inertial>
@@ -177,7 +177,7 @@
             </geometry>
         </collision>
         <inertial>
-            <mass value="0.03"/>
+            <mass value="0.0"/>
             <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
             <inertia ixx="0.0" ixy="0.0" ixz="0.0" iyy="0.0" iyz="0.0" izz="0.0"/>
         </inertial>
@@ -207,7 +207,7 @@
             </geometry>
         </collision>
         <inertial>
-            <mass value="0.03"/>
+            <mass value="0.0"/>
             <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
             <inertia ixx="0.0" ixy="0.0" ixz="0.0" iyy="0.0" iyz="0.0" izz="0.0"/>
         </inertial>
@@ -239,7 +239,7 @@
             </geometry>
         </collision>
         <inertial>
-            <mass value="0.3"/>
+            <mass value="0.0"/>
             <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
             <inertia ixx="0.0" ixy="0.0" ixz="0.0" iyy="0.0" iyz="0.0" izz="0.0"/>
         </inertial>
@@ -269,7 +269,7 @@
             </geometry>
         </collision>
         <inertial>
-            <mass value="0.03"/>
+            <mass value="0.0"/>
             <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
             <inertia ixx="0.0" ixy="0.0" ixz="0.0" iyy="0.0" iyz="0.0" izz="0.0"/>
         </inertial>
@@ -299,7 +299,7 @@
             </geometry>
         </collision>
         <inertial>
-            <mass value="0.03"/>
+            <mass value="0.0"/>
             <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
             <inertia ixx="0.0" ixy="0.0" ixz="0.0" iyy="0.0" iyz="0.0" izz="0.0"/>
         </inertial>
@@ -332,7 +332,7 @@
             </geometry>
         </collision>
         <inertial>
-            <mass value="0.3"/>
+            <mass value="0.0"/>
             <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
             <inertia ixx="0.0" ixy="0.0" ixz="0.0" iyy="0.0" iyz="0.0" izz="0.0"/>
         </inertial>
@@ -362,7 +362,7 @@
             </geometry>
         </collision>
         <inertial>
-            <mass value="0.1"/>
+            <mass value="0.0"/>
             <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
             <inertia ixx="0.0" ixy="0.0" ixz="0.0" iyy="0.0" iyz="0.0" izz="0.0"/>
         </inertial>
@@ -393,7 +393,7 @@
             </geometry>
         </collision>
         <inertial>
-            <mass value="0.2"/>
+            <mass value="0.0"/>
             <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
             <inertia ixx="0.0" ixy="0.0" ixz="0.0" iyy="0.0" iyz="0.0" izz="0.0"/>
         </inertial>
@@ -423,7 +423,7 @@
             </geometry>
         </collision>
         <inertial>
-            <mass value="0.02"/>
+            <mass value="0.0"/>
             <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
             <inertia ixx="0.0" ixy="0.0" ixz="0.0" iyy="0.0" iyz="0.0" izz="0.0"/>
         </inertial>
@@ -437,7 +437,7 @@
         <parent link="plate_5_link"/>
         <child link="plate_6_link"/> 
         <axis xyz="0 0 1"/>
-        <limit lower="-0.78" upper="0.78" velocity="50.0" effort="1000.0"/>
+        <limit lower="-1.57" upper="1.57" velocity="50.0" effort="1000.0"/>
         <origin xyz="0 0 0.018" rpy="0 0 -0.14"/>
     </joint>
     
@@ -456,7 +456,7 @@
             </geometry>
         </collision>
         <inertial>
-            <mass value="0.02"/>
+            <mass value="0.0"/>
             <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
             <inertia ixx="0.0" ixy="0.0" ixz="0.0" iyy="0.0" iyz="0.0" izz="0.0"/>
         </inertial>
@@ -484,7 +484,7 @@
             </geometry>
         </collision>
         <inertial>
-            <mass value="0.01"/>
+            <mass value="0.0"/>
             <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
             <inertia ixx="0.0" ixy="0.0" ixz="0.0" iyy="0.0" iyz="0.0" izz="0.0"/>
         </inertial>
@@ -522,7 +522,7 @@
             </geometry>
         </collision>
         <inertial>
-            <mass value="0.01"/>
+            <mass value="0.0"/>
             <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
             <inertia ixx="0.0" ixy="0.0" ixz="0.0" iyy="0.0" iyz="0.0" izz="0.0"/>
         </inertial>
@@ -530,7 +530,7 @@
     <gazebo reference="greifer_rechts">
         <material>Gazebo/Green</material>
     </gazebo>
-
+        <!-- Joint Nr 7-->
     <joint name="greifer_joint_7" type="prismatic">
         <parent link="arm_4_base_link"/>
         <child link="greifer_links"/>
@@ -552,7 +552,7 @@
             </geometry>
         </collision>
         <inertial>
-            <mass value="0.01"/>
+            <mass value="0.0"/>
             <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
             <inertia ixx="0.0" ixy="0.0" ixz="0.0" iyy="0.0" iyz="0.0" izz="0.0"/>
         </inertial>
@@ -560,7 +560,91 @@
     <gazebo reference="greifer_links">
         <material>Gazebo/Green</material>
     </gazebo>
+
+
+
+<!-- Ros2 Control Interface  -->
+
+<gazebo>
+    <plugin filename="libgazebo_ros2_control.so" name="gazebo_ros2_control">
+      <robot_sim_type>gazebo_ros2_control/GazeboSystem</robot_sim_type>
+      <parameters>/home/ros2/udemy_ws/src/my_big_bazu/config/jtc.yaml</parameters>
+    </plugin>
+  </gazebo>
+  
+  
+  
+
+  <ros2_control name="GazeboSystem" type="system">
+      <hardware>
+        <plugin>gazebo_ros2_control/GazeboSystem</plugin>
+      </hardware>  
+  
+    <joint name="teller_joint_1">
+      <command_interface name="position">
+        <param name="min">-1.57</param>
+        <param name="max">1.57</param>
+      </command_interface>
+      <state_interface name="position"/>
+      <param name="initial_position">0.0</param>  
+    </joint>   
+
+    <joint name="arm_lift_joint_2">
+      <command_interface name="position">
+        <param name="min">-2.8</param>
+        <param name="max">0.35</param>
+      </command_interface>
+      <state_interface name="position"/>
+      <param name="initial_position">-1.57</param>  
+    </joint>
     
+    <joint name="arm_to_arm_joint_3">
+      <command_interface name="position">
+        <param name="min">-2.35</param>
+        <param name="max">0.1</param>
+      </command_interface>
+      <state_interface name="position"/>
+      <param name="initial_position">0.0</param>  
+    </joint>
+
+    <joint name="arm_ratation_joint_4">
+      <command_interface name="position">
+        <param name="min">0.0</param>
+        <param name="max">1.57</param>
+      </command_interface>
+      <state_interface name="position"/>
+      <param name="initial_position">0.0</param>  
+    </joint>
+    
+    <joint name="arm_to_nick_arm_joint_5">
+        <command_interface name="position">
+          <param name="min">-1.57</param>
+          <param name="max">1.57</param>
+        </command_interface>
+        <state_interface name="position"/>
+        <param name="initial_position">0.0</param>  
+      </joint>
+
+
+    <joint name="greifer_joint_6">
+        <command_interface name="position">
+          <param name="min">-0.006</param>
+          <param name="max">0.0</param>
+        </command_interface>
+        <state_interface name="position"/>
+        <param name="initial_position">0.0</param>  
+      </joint>
+
+    <joint name="greifer_joint_7">
+      <command_interface name="position">
+        <param name="min">0.0</param>
+        <param name="max">0.006</param>
+      </command_interface>
+      <state_interface name="position"/>
+      <param name="initial_position">0.0</param>  
+    </joint>
+  
+  </ros2_control>
 
 
 </robot>
