@@ -50,7 +50,7 @@
             </geometry>
         </collision>
         <inertial>
-            <mass value="0.0"/>
+            <mass value="10.0"/>
             <inertia ixx="0.0" ixy="0.0" ixz="0.0" iyy="0.0" iyz="0.0" izz="0.0"/>
         </inertial>
     </link>
@@ -83,7 +83,7 @@
             </geometry>
         </collision>
         <inertial>
-            <mass value="0.0"/>
+            <mass value="1.0"/>
             <inertia ixx="0.0" ixy="0.0" ixz="0.0" iyy="0.0" iyz="0.0" izz="0.0"/>
         </inertial>
     </link>
@@ -114,11 +114,15 @@
             </geometry>
         </collision>
         <inertial>
-            <mass value="0.0"/>
+            <mass value="0.3"/>
             <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
             <inertia ixx="0.0" ixy="0.0" ixz="0.0" iyy="0.0" iyz="0.0" izz="0.0"/>
         </inertial>
     </link>
+    <gazebo reference="teller_link">
+        <material>Gazebo/Orange</material>
+    </gazebo>
+
                 <!-- Joint NR 1-->
     <joint name="teller_joint_1" type="revolute">
         <origin xyz="0.0 0.0 0.029" rpy="0.0 0.0 0.0"/>
@@ -143,7 +147,7 @@
             </geometry>
         </collision>
         <inertial>
-            <mass value="0.0"/>
+            <mass value="0.3"/>
             <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
             <inertia ixx="0.0" ixy="0.0" ixz="0.0" iyy="0.0" iyz="0.0" izz="0.0"/>
         </inertial>
@@ -173,7 +177,7 @@
             </geometry>
         </collision>
         <inertial>
-            <mass value="0.0"/>
+            <mass value="0.03"/>
             <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
             <inertia ixx="0.0" ixy="0.0" ixz="0.0" iyy="0.0" iyz="0.0" izz="0.0"/>
         </inertial>
@@ -203,11 +207,14 @@
             </geometry>
         </collision>
         <inertial>
-            <mass value="0.0"/>
+            <mass value="0.03"/>
             <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
             <inertia ixx="0.0" ixy="0.0" ixz="0.0" iyy="0.0" iyz="0.0" izz="0.0"/>
         </inertial>
     </link>
+    <gazebo reference="plate_2_link">
+        <material>Gazebo/White</material>
+    </gazebo>
                 <!-- Joint NR 2-->
     <joint name="arm_lift_joint_2" type="revolute">
         <parent link="plate_1_link"/>
@@ -232,7 +239,7 @@
             </geometry>
         </collision>
         <inertial>
-            <mass value="0.0"/>
+            <mass value="0.3"/>
             <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
             <inertia ixx="0.0" ixy="0.0" ixz="0.0" iyy="0.0" iyz="0.0" izz="0.0"/>
         </inertial>
@@ -262,11 +269,14 @@
             </geometry>
         </collision>
         <inertial>
-            <mass value="0.0"/>
+            <mass value="0.03"/>
             <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
             <inertia ixx="0.0" ixy="0.0" ixz="0.0" iyy="0.0" iyz="0.0" izz="0.0"/>
         </inertial>
     </link>
+    <gazebo reference="plate_3_link">
+        <material>Gazebo/White</material>
+    </gazebo>
 
     <joint name="arm_to_plate_2_joint" type="fixed">
         <parent link="arm_1_link"/>
@@ -289,11 +299,15 @@
             </geometry>
         </collision>
         <inertial>
-            <mass value="0.0"/>
+            <mass value="0.03"/>
             <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
             <inertia ixx="0.0" ixy="0.0" ixz="0.0" iyy="0.0" iyz="0.0" izz="0.0"/>
         </inertial>
     </link>
+    <gazebo reference="plate_4_link">
+        <material>Gazebo/Green</material>
+    </gazebo>
+
                 <!-- Joint NR 3-->
     <joint name="arm_to_arm_joint_3" type="revolute">
         <parent link="plate_3_link"/>
@@ -318,11 +332,14 @@
             </geometry>
         </collision>
         <inertial>
-            <mass value="0.0"/>
+            <mass value="0.3"/>
             <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
             <inertia ixx="0.0" ixy="0.0" ixz="0.0" iyy="0.0" iyz="0.0" izz="0.0"/>
         </inertial>
     </link>
+    <gazebo reference="arm_2_link">
+        <material>Gazebo/Green</material>
+    </gazebo>
 
     <joint name="arm_to_plate_4_joint" type="fixed">
         <parent link="plate_4_link"/>
@@ -345,11 +362,15 @@
             </geometry>
         </collision>
         <inertial>
-            <mass value="0.0"/>
+            <mass value="0.1"/>
             <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
             <inertia ixx="0.0" ixy="0.0" ixz="0.0" iyy="0.0" iyz="0.0" izz="0.0"/>
         </inertial>
     </link>
+    <gazebo reference="arm_3_link">
+        <material>Gazebo/Red</material>
+    </gazebo>
+
                  <!-- Joint NR 4-->
     <joint name="arm_ratation_joint_4" type="revolute">
         <parent link="arm_2_link"/>
@@ -372,11 +393,14 @@
             </geometry>
         </collision>
         <inertial>
-            <mass value="0.0"/>
+            <mass value="0.2"/>
             <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
             <inertia ixx="0.0" ixy="0.0" ixz="0.0" iyy="0.0" iyz="0.0" izz="0.0"/>
         </inertial>
     </link>
+    <gazebo reference="plate_5_link">
+        <material>Gazebo/Red</material>
+    </gazebo>
 
     <joint name="plate_to_arm_3_joint" type="fixed">
         <parent link="arm_3_link"/>
@@ -399,11 +423,15 @@
             </geometry>
         </collision>
         <inertial>
-            <mass value="0.0"/>
+            <mass value="0.02"/>
             <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
             <inertia ixx="0.0" ixy="0.0" ixz="0.0" iyy="0.0" iyz="0.0" izz="0.0"/>
         </inertial>
     </link>
+    <gazebo reference="plate_6_link">
+        <material>Gazebo/Yellow</material>
+    </gazebo>
+
                 <!-- Joint NR 5-->
     <joint name="arm_to_nick_arm_joint_5" type="revolute">
         <parent link="plate_5_link"/>
@@ -428,11 +456,14 @@
             </geometry>
         </collision>
         <inertial>
-            <mass value="0.0"/>
+            <mass value="0.02"/>
             <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
             <inertia ixx="0.0" ixy="0.0" ixz="0.0" iyy="0.0" iyz="0.0" izz="0.0"/>
         </inertial>
     </link>
+    <gazebo reference="arm_4_link">
+        <material>Gazebo/Yellow</material>
+    </gazebo>
 
     <joint name="arm_4_to_plate_joint" type="fixed">
         <parent link="plate_6_link"/>
@@ -453,11 +484,14 @@
             </geometry>
         </collision>
         <inertial>
-            <mass value="0.0"/>
+            <mass value="0.01"/>
             <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
             <inertia ixx="0.0" ixy="0.0" ixz="0.0" iyy="0.0" iyz="0.0" izz="0.0"/>
         </inertial>
     </link>
+    <gazebo reference="arm_4_base_link">
+        <material>Gazebo/Yellow</material>
+    </gazebo>
 
     <joint name="arm_base_joint" type="fixed">
         <parent link="arm_4_link"/>
@@ -488,11 +522,14 @@
             </geometry>
         </collision>
         <inertial>
-            <mass value="0.0"/>
+            <mass value="0.01"/>
             <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
             <inertia ixx="0.0" ixy="0.0" ixz="0.0" iyy="0.0" iyz="0.0" izz="0.0"/>
         </inertial>
     </link>
+    <gazebo reference="greifer_rechts">
+        <material>Gazebo/Green</material>
+    </gazebo>
 
     <joint name="greifer_joint_7" type="prismatic">
         <parent link="arm_4_base_link"/>
@@ -515,11 +552,14 @@
             </geometry>
         </collision>
         <inertial>
-            <mass value="0.0"/>
+            <mass value="0.01"/>
             <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
             <inertia ixx="0.0" ixy="0.0" ixz="0.0" iyy="0.0" iyz="0.0" izz="0.0"/>
         </inertial>
     </link>
+    <gazebo reference="greifer_links">
+        <material>Gazebo/Green</material>
+    </gazebo>
     
 
 
