@@ -30,6 +30,7 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
+            'trajectory_msg = big_bazu.control_bazu:main'
         ],
     },
 )
