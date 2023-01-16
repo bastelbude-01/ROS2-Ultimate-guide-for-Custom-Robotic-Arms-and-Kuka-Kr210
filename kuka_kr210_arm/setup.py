@@ -17,7 +17,7 @@ setup(
         (os.path.join('share', package_name,'urdf'), glob('urdf/*')),
         (os.path.join('share', package_name,'config'), glob('config/*')),
         (os.path.join('share', package_name,'meshes/collision'), glob('meshes/collision/*')),
-         (os.path.join('share', package_name,'meshes/visual'), glob('meshes/visual/*')),
+        (os.path.join('share', package_name,'meshes/visual'), glob('meshes/visual/*')),
 
     ],
     install_requires=['setuptools'],
